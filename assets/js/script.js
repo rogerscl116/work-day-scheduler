@@ -15,6 +15,20 @@ $(document).ready(function() {
     })
 })
 
+// create function to track hours
+function hourTracker() {
+
+    // get current hour
+    var currentHour = moment().hour();
+
+    // loop over timeblocks
+    $('.time-block').each(function() {
+        var hourBlock = parseInt($(this).attr('id').split('hour')[1]);
+        console.log(hourBlock);       
+        
+    })
+}
+
 // get item from local storage
 $('#hour9 .description').val(localStorage.getItem('hour9'));
 $('#hour10 .description').val(localStorage.getItem('hour10'));
@@ -25,3 +39,6 @@ $('#hour14 .description').val(localStorage.getItem('hour14'));
 $('#hour15 .description').val(localStorage.getItem('hour15'));
 $('#hour16 .description').val(localStorage.getItem('hour16'));
 $('#hour17 .description').val(localStorage.getItem('hour17'));
+
+
+hourTracker();
