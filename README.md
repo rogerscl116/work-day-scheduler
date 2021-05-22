@@ -10,3 +10,9 @@ Create a simple calendar application that allows a user to save events for each 
 - GitHub repository: [https://github.com/rogerscl116/work-day-scheduler](https://github.com/rogerscl116/work-day-scheduler)
 
 ## Screenshots
+
+### Header
+![Header Screenshot](./assets/images/work-day-scheduler1)
+
+### Body
+![Body Screenshot](./assets/images/work-day-scheduler2)

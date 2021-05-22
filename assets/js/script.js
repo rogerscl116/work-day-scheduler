@@ -57,5 +57,5 @@ $('#hour15 .description').val(localStorage.getItem('hour15'));
 $('#hour16 .description').val(localStorage.getItem('hour16'));
 $('#hour17 .description').val(localStorage.getItem('hour17'));
 
-
+// run function to track hours
 hourTracker();
