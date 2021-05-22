@@ -24,8 +24,25 @@ function hourTracker() {
     // loop over timeblocks
     $('.time-block').each(function() {
         var hourBlock = parseInt($(this).attr('id').split('hour')[1]);
-        console.log(hourBlock);       
-        
+
+        // check the time and add classes for color-coded indicators
+        if (hourBlock < currentHour) {
+            $(this).addClass('past');
+            $(this).removeClass('present');
+            $(this).removeClass('future');
+        }
+
+        if (hourBlock === currentHour) {
+            $(this).removeClass('past');
+            $(this).addClass('present');
+            $(this).removeClass('future');
+        }
+
+        if (hourBlock > currentHour) {
+            $(this).removeClass('past');
+            $(this).removeClass('present');
+            $(this).addClass('future');
+        }        
     })
 }
 
