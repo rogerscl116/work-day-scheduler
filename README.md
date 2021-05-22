@@ -12,7 +12,7 @@ Create a simple calendar application that allows a user to save events for each 
 ## Screenshots
 
 ### Header
-![Header Screenshot](./assets/images/work-day-scheduler1)
+![Header Screenshot](./assets/images/work-day-scheduler1.jpg)
 
 ### Body
-![Body Screenshot](./assets/images/work-day-scheduler2)
+![Body Screenshot](./assets/images/work-day-scheduler2.jpg)
