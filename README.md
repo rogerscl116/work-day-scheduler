@@ -16,3 +16,5 @@ Create a simple calendar application that allows a user to save events for each 
 
 ### Body
 ![Body Screenshot](./assets/images/work-day-scheduler2.jpg)
+
+*Created by Charity Rogers*
